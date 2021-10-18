@@ -10,3 +10,14 @@ var obj = {x:1,y:2,z:3};
 console.log(obj.x);
 console.log(obj['x']);
 
+// 演算子
+var a = 3;
+var y = x++;
+console.log(x); //結果：４
+console.log(y); //結果：３
+
+var a = 3;
+var y = ++x;
+
+console.log(x); //結果：４
+console.log(y); //結果：４
